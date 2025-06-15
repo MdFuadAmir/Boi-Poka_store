@@ -6,6 +6,7 @@ const NavBer = () => {
   <li><NavLink to="/">Home</NavLink></li>
   <li><NavLink to="/listedBooks">Listed Books</NavLink></li>
   <li><NavLink to="/pagesToRead">Pages to Read</NavLink></li>
+  <li><NavLink to="/register">Register</NavLink></li>
   </>
     return (
         <div>
@@ -40,7 +41,8 @@ const NavBer = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <NavLink to="/login" className="btn">Login</NavLink>
+    <NavLink to="/signUp" className="btn">Sign Up</NavLink>
   </div>
 </div>
             
